@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charsets="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thando Personal Portfolio websiite</title>
+        <link rel="stylesheet" href="../CSS/thandoPortfolio.css">
+        <script type="text/javascript" src="../javascript/thandoPortfolio.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head> 
+    <body>
+        <div class="hero">
+            <nav class="nav">
+                <!-- <img src="../CSS/Assets/images/richmondLogo.png" class="logo"> -->
+                <a href="#" class="nav__link">HOME</a>
+                <a href="#ABOUT" class="nav__link">ABOUT</a>
+                <a href="#SKILLS" class="nav__link">SKILLS</a>
+                <a href="#PROJECTS" class="nav__link">PROJECTS</a>
+                <!-- <a href="#" class="nav__link">SOCIALS</a> -->
+                
+            </nav>
+            
+            <div class="leftSide">
+                <div class="detel">
+                    <h1>Thandukukhanya</h1>
+                    <h1><span>Thando</span> Tsela</h1>
+                    <h2>Software Engineer | Mathematical Economist.</h2>
+                <a href="https://drive.google.com/file/d/1X_bsQP6PaTeG26TFT4xeyxOd1KRJ9n2j/view?usp=share_link">VIEW RESUME</a>
+                </div>
+                <div class="iconContainer">
+                    <div class="socialIcons">
+                        <a href="https://www.linkedin.com/in/thando-tsela-74b261206/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ThandoTsela"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/thandukukhanya.tsela?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/thando_tsela?s=21&t=iSKzbbDZn8CR4ESDyhbz4A"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightSide">
+                <div class="images" id="images">
+                    <img src="../CSS/Assets/images/background1.png" class="shape">
+                    <img src="../CSS/Assets/images/Subject.png" class="boy">
+                </div>
+                <div class="information" id="ABOUT">
+                    <h2>ABOUT</h2>
+                    <p style="text-align: justify;">
+                        My passion for mathematics and natural sciences emerged from an early age. During my high school years, my 
+                        attention was captivated by the fascinating world of computer science. Its intricate practicality and boundless 
+                        potential endlessly drew me in. Today, my focus lies primarily on fullstack and iOS app development within the 
+                        dynamic realm of software engineering.
+                    </p>
+                    <p style="text-align: justify;">
+                        Recognizing the immense value of mathematical economics in today's highly technical industries, I am fully aware of its 
+                        remarkable advantages. By seamlessly integrating computer science and economics, we gain the power to effectively analyze, 
+                        comprehend, and represent data and behavioral patterns within this thriving sector. Moreover, this harmonious fusion empowers 
+                        us to navigate the industry's intricacies with remarkable efficiency and accuracy.
+                    </p>
+                    <br>
+                    <p>Highschool - United World College of the Adriatic, Trieste, Italy</p>
+                    <p>College - University of Richmond, VA, United States of America</p>
+                    <p>Origin - Eswatini, Africa</p>
+                    <p>Current Location - VA, United States of America</p>
+                </div>
+                <div class="information" id="SKILLS">
+                    <h2>SKILLS</h2>
+                    <p>Different responsibilities and interests have enabled me to develop a comprehensive set of soft skills, 
+                        including leadership, communication, and teamwork. In addition, I have acquired a repertoire of technical 
+                        skills, which are detailed below.
+                    </p>
+                    <br>
+                    <table style="border: none">
+                        <thead>
+                          <td> <strong>SKILL</strong></td>
+                          <td> <strong>LEVEL</strong></td>
+                        </thead>
+                        <tr>
+                          <td> PYTHON</td>
+                          <td> advanced</td>
+                        </tr>
+                        <tr>
+                          <td> JAVA</td>
+                          <td> intermediate</td>
+                        </tr>
+                        <tr>
+                            <td> C++</td>
+                            <td> intermediate</td>
+                          </tr>
+                          <tr>
+                            <td> MIPS Assembly</td>
+                            <td> intermediate</td>
+                          </tr>
+                          <tr>
+                            <td> HTML / CSS / JAVASCRIPT &nbsp</td>
+                            <td> intermediate</td>
+                          </tr>
+                          <tr>
+                            <td> JAVASCRIPT</td>
+                            <td> intermediate</td>
+                          </tr>
+                          <tr>
+                            <td> GITHUB / GIT</td>
+                            <td> intermediate</td>
+                          </tr>
+                          <tr>
+                            <td> R</td>
+                            <td> beginner</td>
+                          </tr>
+                      </table>
+                </div>
+                <div class="information" id="PROJECTS">
+                    <h2>PROJECTS</h2>
+                    <div class="projects">
+                        <p>This is where I will put in my projects.</p>
+                    </div>
+                </div>
+                <script>
+                    //enable hidden 
+                    {
+                        const nav = document.querySelector(".nav");
+                        let lastScrollY = window.scrollY;
+        
+                        window.addEventListener("scroll", () => {
+                        if (lastScrollY < window.scrollY) {
+                            nav.classList.add("nav--hidden");
+                        } else {
+                            nav.classList.remove("nav--hidden");
+                        }
+        
+                        lastScrollY = window.scrollY;
+                        });
+                    }
+                </script>
+
+                <footer>
+                    <div class="footerBottom">
+                        <p>Copyright &copy; Designed by <span class="designer">Thando</span></p>
+                    </div>
+                </footer>
+            </div>
+
+            
+
+            <!-- <footer>
+                <div class="footerBottom">
+                    <p>Copyright &copy; Designed by <spanclass="designer">Thando</span></p>
+                </div>
+            </footer> -->
+        </div>
+        
+        
+        
+    </body>
+</html>
