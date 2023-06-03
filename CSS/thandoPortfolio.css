@@ -20,14 +20,13 @@
 
 .leftSide{
   flex: 1;
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   margin: 10px;
   margin-right: 25%;
   
   /* display: inline-block; */
   width: 47%;
   position: fixed;
-  border: solid;
   height: 100%;
   /* flex: 1; */
   /* border: 2px;
@@ -42,7 +41,6 @@
   /* right: 50%; */
   /* width: 47%; */
   /* flex: 1; */
-  border: solid;
   /* right: 0px; */
 
   /* margin-right: 20px; */
@@ -103,7 +101,6 @@ span{
   width: 100%;
   padding: 20px 60px 20px;
   position: absolute;
-  border: solid;
   /* bottom: 10%; */
 }
 
