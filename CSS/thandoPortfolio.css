@@ -8,25 +8,42 @@
     box-sizing: border-box;
 }
 .hero{
-  position: relative;
-  /* width: 100%; */
-  height: 100vh;
   display: flex;
+  width: 97%;
+  padding-right: 2%;
+  /* position: relative; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* display: flex; */
   /* background: #ebebeb; */
 }
 
 .leftSide{
-  width: 47%;
-  display: inline-block;
+  flex: 1;
+  border: 2px solid blueviolet;
+  margin: 10px;
+  margin-right: 25%;
   
+  /* display: inline-block; */
+  width: 47%;
+  position: fixed;
+  border: solid;
+  height: 100%;
   /* flex: 1; */
   /* border: 2px;
   margin: 10px; */
 }
 
 .rightSide{
-  width: 47%;
-  display: inline-block;
+  /* margin-left: 650px; */
+  margin-left: 55%;
+  /* padding-right: 10px; */
+  display: absolute;
+  /* right: 50%; */
+  /* width: 47%; */
+  /* flex: 1; */
+  border: solid;
+  /* right: 0px; */
 
   /* margin-right: 20px; */
   /* right: 100px; */
@@ -35,7 +52,7 @@
 .detel{
   margin-left: 8%;
   margin-top: 13%;
-  position: fixed;
+  /* position: fixed; */
   top: 0%;
 }
 
@@ -82,9 +99,50 @@ span{
   font-size-adjust: 5px;
 }
 
+.iconContainer{
+  width: 100%;
+  padding: 20px 60px 20px;
+  position: absolute;
+  border: solid;
+  /* bottom: 10%; */
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  /* bottom: 20%;
+  left: 20%; */
+
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #ebebeb;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i{
+  font-family: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.4s;
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.4s;
+}
+
 .images{
   width: 100%;
-  height: 40%;
+  height: 20%;
   /* position: absolute; */
   position: relative;
   /* bottom: 0; */
@@ -97,6 +155,7 @@ span{
 
 .images img{
   height: 90%;
+  max-width: 70%;
   position: absolute;
   left: 50%;
   /* bottom: 0%; */
@@ -211,44 +270,6 @@ body{
 /* footer{
   background-color: #111;
 } */
-
-.iconContainer{
-  width: 100%;
-  padding: 20px 30px 20px;
-}
-
-.socialIcons{
-  display: flex;
-  /* justify-content: center; */
-  position: fixed;
-  bottom: 20%;
-  left: 20%;
-
-}
-
-.socialIcons a{
-  text-decoration: none;
-  padding: 10px;
-  background-color: #ebebeb;
-  margin: 10px;
-  border-radius: 50%;
-}
-
-.socialIcons a i{
-  font-family: 2em;
-  color: black;
-  opacity: 0.9;
-}
-
-.socialIcons a:hover{
-  background-color: #111;
-  transition: 0.4s;
-}
-
-.socialIcons a:hover i{
-  color: white;
-  transition: 0.4s;
-}
 
 .footerBottom{
   /* background-color: #000; */
